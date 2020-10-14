@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ProceduralGeneration.cs" />
+    <Compile Include="Assets\Scripts\MapGeneration\ProceduralGeneration.cs" />
+    <Compile Include="Assets\Scripts\PlayerCharacters\CharacterStat.cs" />
+    <Compile Include="Assets\Scripts\PlayerCharacters\StatMod.cs" />
+    <Compile Include="Assets\Scripts\PlayerItems\Item.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
